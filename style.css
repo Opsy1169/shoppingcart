@@ -32,6 +32,14 @@
     vertical-align: top;
 }
 
+.summary {
+    display: table;  
+    width: 95%; 
+}
+.summary-numbers{
+    display: table-cell;   
+}
+
 .button {
     border-color: black;
     margin: 3px;
