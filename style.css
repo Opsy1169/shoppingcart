@@ -1,3 +1,39 @@
 .btn-label {position: relative;left: -12px;display: inline-block;padding: 6px 12px;background: rgba(0,0,0,0.15);border-radius: 3px 0 0 3px;}
 .btn-labeled {padding-top: 0;padding-bottom: 0;}
 .btn { margin-bottom:10px; }
+
+
+.position {
+    border: 1px solid lightblue;
+    border-radius: 3px;
+    background-color: aliceblue;
+    padding: 4%;
+    margin: 3px;
+    display: table;
+    width: 95%;
+}
+
+.price-and-name {
+    display: table-cell;
+    width: 50%;
+}
+
+.left-part {
+    
+    float: left;
+}
+.right-part {
+   
+    float: right;
+}
+
+.quantity-and-buttons {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.button {
+    border-color: black;
+    margin: 3px;
+    display: table-cell;
+}
